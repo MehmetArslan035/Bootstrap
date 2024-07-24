@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #bc625b;
+    --secondary-color: #4d3822;
+    --hover-color: #e76f51;
+    --section-color: #b78752;
+}
+
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
