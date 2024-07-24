@@ -29,3 +29,7 @@
     color: white !important;
 
 }
+
+.nav-link:hover{
+    color: var(--primary-color) !important;
+}
