@@ -12,6 +12,7 @@
 /* ------------- NAVBAR ------------- */
 .navbar {
     background-color: transparent ;
+    position: fixed;
 }
 
 .navbar .container{
@@ -32,6 +33,15 @@
 
 .nav-link:hover{
     color: var(--primary-color) !important;
+}
+
+/* ------------ CAROUSEL ------------ */
+
+.carousel-item {
+    height: calc(100vh -135px);
+}
+.carousel-item img{
+    height: 100%;
 }
 
 .carousel-caption{
@@ -69,5 +79,4 @@ z-index: 3;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
-    
 }
