@@ -113,3 +113,8 @@ section#about{
     height: 100%;
     background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.5), rgba(188, 108, 37, 1));
 }
+
+section#about button{
+    background-color: var(--primary-color);
+    border: none;
+}
