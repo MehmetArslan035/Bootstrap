@@ -11,5 +11,9 @@
 
 /* ------------- NAVBAR ------------- */
 .navbar {
-    background-color: transparent;
+    background-color: transparent ;
+}
+
+.navbar .container{
+    background-color: rgba(0, 0, 0, 0.7);
 }
