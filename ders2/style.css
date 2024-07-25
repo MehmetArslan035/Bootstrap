@@ -125,6 +125,7 @@ section#people {
     background-color: var(--section-color);
 }
 
+
 section#people .card{
     background-color: var(--primary-color);
      transition: all 0.5s;
@@ -152,4 +153,15 @@ section#people i:hover{
 section#people i:hover{
     opacity: 0.5;
     
+}
+
+section#menu {
+    background-color: var(--secondary-color);
+}
+section#menu button {
+    background-color: var(--secondary-color);
+    margin-right: 1rem;
+}
+section#menu .container{
+    background-color: var(--primary-color);
 }
