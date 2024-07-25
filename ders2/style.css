@@ -121,40 +121,41 @@ section#about button{
 
 /* PEOPLE */
 
-section#people {
+section#people{
     background-color: var(--section-color);
 }
 
+section#people .container{
+    background-color: var(--secondary-color);
+}
 
 section#people .card{
     background-color: var(--primary-color);
-     transition: all 0.5s;
-     overflow: hidden;
+    transition: all 0.5s;
+    overflow: hidden;
 }
 
-section#people .card:hover {
-  transform: scale(1.05);
- 
+section#people .card:hover{
+    transform: scale(1.05);
 }
 
 section#people .card img{
     transition: all 0.5s;
-    
 }
+
 section#people .card img:hover{
     transform: scale(1.1);
-    
 }
+
 section#people i:hover{
+  opacity: 0.5;
+}
+
+section#people i{
     transition: all 0.5s;
-    
 }
 
-section#people i:hover{
-    opacity: 0.5;
-    
-}
-
+/* OUR MENU  */
 section#menu {
     background-color: var(--secondary-color);
 }
