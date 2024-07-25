@@ -574,61 +574,101 @@
 
     <!-- ----------- CONTACT ----------- -->
     <section id="contact" class="py-5">
-      <div class="contact-header text-center">
+      <div class="contact-header text-center text-white">
         <h2 class="py-5">CONTACT</h2>
       </div>
 
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-6 form container"><form class="row g-3">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Password</label>
-              <input type="password" class="form-control" id="inputPassword4">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">City</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">State</label>
-              <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="inputZip">
-            </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
+        <div class="row align-items-center justify-content-center row-gap-5">
+          <div class="col-12 col-lg-6 form-container">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputName" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputName"
+                  placeholder="Harvey"
+                />
               </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
-            </div>
-          </form></div>
-
-          <div class="col-12 col-lg-6 map container bg-warning">col-2</div>
+              <div class="col-md-6">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  placeholder="harvey@clarusway.com"
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder="İstanbul"
+                />
+              </div>
+              <div class="col-12 form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea"
+                ></textarea>
+                <label for="floatingTextarea">Enter your comments</label>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-lg-6 map-container">
+            <iframe
+              class="google-map"
+              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96302.45451461109!2d29.034156435449216!3d41.03725009862413!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2str!4v1721935972605!5m2!1sen!2str"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- ----------- Footer ------------ -->
+
+    <footer class="text-dark">
+<div class="container">
+  <div class="row row-gap-3">
+    <div class=" col-12 col-lg-4">
+      <p><em>where to find us</em></p>
+      <a href="" class="text-dark"><i class="bi bi-geo-alt-fill">İstanbul Üsküdar Sahili</i></a>
+      <div class="social-icons fs-4 d-flex gap-5 mt-3">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-whatsapp"></i>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4">
+      <p><em>Contact</em></p>
+<p><strong>Phone:</strong>555-555-55-55</p>
+<p><strong>E-mail:</strong>Harveycoffe@clarusway.com</p>
+    </div>
+    <div class="col-12 col-lg-4">
+      <p><em>Opening Hours</em></p>
+<p>Monday-Friday_______9:00 - 18:00</p>
+<p>Sturday____________11:00 - 16:30</p>
+<p>Sunday_____________Closed</p>
+    </div>
+  </div>
+  <div class="text-center">
+<p> Copyright &copy Harvey Watson</p>
+  </div>
+</div>
+    </footer>
+
+
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
