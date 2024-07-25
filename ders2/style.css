@@ -144,3 +144,12 @@ section#people .card img:hover{
     transform: scale(1.1);
     
 }
+section#people i:hover{
+    transition: all 0.5s;
+    
+}
+
+section#people i:hover{
+    opacity: 0.5;
+    
+}
