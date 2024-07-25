@@ -170,3 +170,8 @@ section#menu .container{
 section#menu .menu-header {
     color:  var(--primary-color);
 }
+
+/* CONTACT */
+section#contact {
+    background-color: var(--primary-color);
+}
